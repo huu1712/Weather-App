@@ -76,6 +76,11 @@ body{
     text-align: center;
 }
 
+.weather-box.fadeIn, .weather-details.fadeIn, .not-found.fadeIn{
+    scale: 1;
+    opacity: 1;
+}
+
 .weather-box img{
     width: 60%;
     margin-top: 30px;
